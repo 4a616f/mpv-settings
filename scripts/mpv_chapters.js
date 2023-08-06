@@ -5,11 +5,11 @@ mp.register_event("file-loaded", init);
 mp.observe_property("chapter", "number", onChapterChange);
 mp.observe_property("chapter-list/count", "number", init);
 var options = {
-	font_size: 16,
-	font_color: "d4bed1",
+	font_size: 22,
+	font_color: "79c21b",
 	border_size: 1.0,
 	border_color: "000000",
-	font_color_currentChapter: "ba25a6",
+	font_color_currentChapter: "1b25c2",
 };
 var playinfo = {
 	chapters: [], //array

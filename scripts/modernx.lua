@@ -33,12 +33,12 @@ local user_opts = {
     barmargin = 0,              -- vertical margin of top/bottombar
     boxalpha = 80,              -- alpha of the background box,
                                 -- 0 (opaque) to 255 (fully transparent)
-    hidetimeout = 500,          -- duration in ms until the OSC hides if no
+    hidetimeout = 10,          -- duration in ms until the OSC hides if no
                                 -- mouse movement. enforced non-negative for the
                                 -- user, but internally negative is "always-on".
-    fadeduration = 200,         -- duration of fade out in ms, 0 = no fade
+    fadeduration = 800,         -- duration of fade out in ms, 0 = no fade
     deadzonesize = 0.5,         -- size of deadzone
-    minmousemove = 0,           -- minimum amount of pixels the mouse has to
+    minmousemove = 4,           -- minimum amount of pixels the mouse has to
                                 -- move between ticks to make the OSC show up
     iamaprogrammer = false,     -- use native mpv values and disable OSC
                                 -- internal track list management (and some
